@@ -1,0 +1,115 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+
+nav{
+   background-color: #47504b;
+   height: 110px;
+   width: 100%;
+   display: flex;
+   justify-content: space-between;
+   align-items: center;
+   padding-top: 10px;
+   padding-bottom: 10px;
+   padding-right: 50px;
+   padding: 20px;
+}
+
+nav img{
+width: 105px;
+height: 110px;
+}
+
+nav ul{
+  display: flex     ;
+  justify-content: center;
+  align-items: center;
+}
+
+nav ul li{
+    list-style: none;
+    padding-right: 50px;
+}
+
+nav ul li a{
+    color: whitesmoke;
+    text-decoration: none;
+    font-family: cursive;
+}
+
+nav ul li a:hover{
+    color:greenyellow;
+    text-decoration: underline;
+}
+
+.banner{
+    background-image: url('./assets/aboutus-banner.png');
+    background-size: cover;
+    width: 100%;
+    height: 400px;
+}
+
+.banner h1{
+    color: rgb(90, 138, 19);
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    padding-top: 250px;
+    text-align: center;
+    font-size: 
+    50px;
+}
+
+.mission h1, .vision h1{
+    text-align: center;
+    padding-bottom: 25px;
+}
+
+
+
+.mission{
+    text-align: center;
+    padding-top: 40px;
+}
+
+.vision{
+    text-align: center;
+    padding-top: 40px;
+}
+
+footer{
+    background-color: #47504b;
+    height: 340px;
+    width: 100%;
+    margin-top: 65px;
+    color: whitesmoke;
+    font-family: cursive;
+}
+
+.foot-main{
+    padding-top: 30px;
+    display: flex;
+    width: 100%;
+    height: 250px;
+    justify-content: space-around;
+}
+
+.foot1 img{
+    width: 100px;
+    height: 120px;
+}
+
+.foot2 p,  .foot3 p{
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.foot3 a{
+    color:whitesmoke;
+    text-decoration: none;
+}
+
+.copy{
+    padding: 40px;
+    text-align: center;
+}
